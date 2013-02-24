@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Company &middot; Rater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample site for BNOTIONS which allows users to rate companies for Co-op">
+    <meta name="author" content="Farid Zakaria">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/company.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/underscore-1.1.6.js"></script>
+    <script src="js/parse-1.2.1.min.js"></script>
+    <script src="js/todos.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="login">Login</a></li>
+        </ul>
+        <h3 class="muted">Company Rater</h3>
+      </div>
+
+      <hr>
+
+      <div class="row-fluid marketing">
+        <div class="span12">
+          <div id="content">
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy; Fariid Zakaria 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Templates -->
+    <script type="text/template" id="login-template">
+      <form class="form-signin">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="input-block-level" placeholder="Email address">
+        <input type="password" class="input-block-level" placeholder="Password">
+        <button class="btn btn-large btn-primary" type="submit">Log in</button>
+      </form>
+
+      <form class="signup-form">
+        <h2>Sign Up</h2>
+        <div class="error" style="display:none"></div>
+        <input type="text" id="signup-username" placeholder="Username" />
+        <input type="password" id="signup-password" placeholder="Create a Password" />
+        <button>Sign Up</button>
+      </form>
+
+      </div>
+    </script>
+
+
+  </body>
+</html>
